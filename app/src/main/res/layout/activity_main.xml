@@ -8,6 +8,7 @@
     tools:context="com.example.errec.moderartui.MainActivity">
 
     <LinearLayout
+        android:id="@+id/topSqr"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -15,18 +16,21 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/stripe1"
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_marginTop="20dp"
             android:background="#009B3A" />
 
         <TextView
+            android:id="@+id/stripe2"
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_marginTop="20dp"
             android:background="#009B3A" />
 
         <TextView
+            android:id="@+id/stripe3"
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_marginTop="20dp"
@@ -35,6 +39,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/middleSrq"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_gravity="center"
@@ -42,6 +47,7 @@
         android:background="#FEDF00">
 
         <LinearLayout
+            android:id="@+id/middleSrqContentA"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -52,6 +58,7 @@
             android:background="#002776">
 
             <LinearLayout
+                android:id="@+id/middleSrqContentB"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -62,6 +69,7 @@
                 android:background="#FFF">
 
                 <TextView
+                    android:id="@+id/middleText"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -98,11 +106,14 @@
             android:layout_marginTop="20dp"
             android:background="#009B3A" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:layout_marginTop="20dp"
-            android:background="#009B3A" />
+        <SeekBar
+            android:id="@+id/seek1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#000"
+            android:progress="20"
+            android:secondaryProgress="20" />
 
     </LinearLayout>
 
