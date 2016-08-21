@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Moder Art UI</string>
+    <string name="BR_flag">Ordem e Progresso?</string>
+    <string name="US_flag">Hell Yes!</string>
 </resources>

@@ -66,16 +66,30 @@
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
                 android:layout_marginTop="40dp"
+                android:orientation="vertical"
                 android:background="#FFF">
 
                 <TextView
-                    android:id="@+id/middleText"
+                    android:id="@+id/topText"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
                     android:gravity="center"
-                    android:text="ORDEM E PROGRESSO?"
+                    android:text="@string/BR_flag"
                     android:textAllCaps="true"
                     android:textColor="#000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/bottomText"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/US_flag"
+                    android:textAllCaps="true"
+                    android:textColor="#FFF"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
