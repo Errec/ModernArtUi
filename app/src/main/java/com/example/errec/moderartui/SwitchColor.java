@@ -1,6 +1,5 @@
 package com.example.errec.moderartui;
 
-import android.content.Context;
 import android.graphics.Color;
 import android.view.View;
 
@@ -12,15 +11,14 @@ public class SwitchColor{
     private int colorIndex;
     private String initialColor;
     private String finalColor;
-    private Context context;
 
-    public SwitchColor(Context context, View view, int colorIndex, String initialColor, String finalColor) {
-        this.context = context;
+
+    public SwitchColor(View view, int colorIndex, String initialColor, String finalColor) {
         this.view = view;
         this.colorIndex = colorIndex;
         this.initialColor = initialColor;
         this.finalColor = finalColor;
-        SwitchTextViewBackground();//Change is here
+        SwitchTextViewBackground();
     }
 
     public void SwitchTextViewBackground(){
