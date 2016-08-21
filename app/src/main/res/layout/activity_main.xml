@@ -88,6 +88,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/bottomSqr"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -95,22 +96,26 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/stripe4"
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_marginTop="20dp"
             android:background="#009B3A" />
 
         <TextView
+            android:id="@+id/stripe5"
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_marginTop="20dp"
             android:background="#009B3A" />
 
         <SeekBar
-            android:id="@+id/seek1"
+            android:id="@+id/seekBar"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="35dp"
             android:background="#000"
             android:progress="20"
             android:secondaryProgress="20" />
